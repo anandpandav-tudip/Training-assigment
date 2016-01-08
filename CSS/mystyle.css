@@ -1,0 +1,42 @@
+body {
+    background-color: lightblue;
+}
+
+p {
+    color: navy;
+    margin-left: 20px;
+}
+table, th, td {
+   border: 1px solid black;
+}
+@keyframes example {
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+/* The element to apply the animation to */
+div {
+    width: 300px;
+    height: 100px;
+    background-color: red;
+    animation-name: example;
+    animation-duration: 2s;
+	 animation-iteration-count: infinite
+}
+ul{
+    list-style-type: square;
+	 background: #3399ff;
+}
+body {
+    counter-reset: section;
+}
+button {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+}
